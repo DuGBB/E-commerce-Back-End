@@ -60,7 +60,6 @@ router.get("/:id", (req, res) => {
       console.log(err);
       res.status(500).json(err);
     });
-  // be sure to include its associated Category and Tag data
 });
 
 // create new product
